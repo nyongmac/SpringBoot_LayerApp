@@ -13,7 +13,7 @@ import com.ashokit.model.Employee;
 @Repository
 public class EmployeeDaoImpl implements EmployeeDao {
 	
-	//Will be getting as spring bean through Auto-configuration
+	
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 	
